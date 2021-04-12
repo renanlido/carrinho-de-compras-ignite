@@ -29,6 +29,23 @@ export const Container = styled.div`
   }
 `;
 
+export const EmptyCart = styled.div`
+  svg {
+    margin-bottom: 10px;
+  }
+  
+  width: 100%;
+  color: #555;
+  font-size: 40px;
+  padding: 100px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+`;
+
 export const ProductTable = styled.table`
   width: 100%;
 
@@ -69,6 +86,7 @@ export const ProductTable = styled.table`
       color: #666;
       padding: 6px;
       width: 50px;
+      text-align: center;
     }
   }
 
